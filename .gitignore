@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# React (frontend)
+*.cache
+.cache/
+*.tsbuildinfo
+.vite/
+
+# Coverage reports
+coverage/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: if you're using MongoDB locally and dumping/restoring
+dump/
+
+# Optional: ignore uploads or runtime data
+uploads/
+tmp/
+
+# Optional: if you're using Docker
+docker-compose.override.yml
